@@ -1,5 +1,5 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * This is a manifest file that'll be compiled into application.css.erb, which will include all the files
  * listed below.
  *
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
@@ -41,7 +41,7 @@ header:after {
     clear: both;
 }
 html {
-    background-color: forestgreen;
+    background-image: url(<%= asset_path 'photo-1536147210925-5cb7a7a4f9fe.jpeg' %>)
 }
 body{
     background-color: lightgray;
