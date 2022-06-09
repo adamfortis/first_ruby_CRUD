@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Planter</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+  <h1>Adam's plant CRUD project </h1>
+<nav>
+  <ul>
+    <li>
+      <%= link_to "People", people_path %>
+    </li>
+    <li>
+      <%= link_to "Plants", plants_path %>
+    </li>
+  </ul>
+</nav>
+</header>
+<main>
+<%= yield %>
+</main>
+</body>
+</html>
