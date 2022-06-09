@@ -1,28 +1,10 @@
-== README
+Built using plural sight tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The tutorial went through the basics of scaffolding with rails and using it to build a working local server.
+I worked with the models and ran some migrations to create new tables and also 
+worked with the views to manipulate how everything looked
+I did not work with any controllers in this tutorial all though I do understand basic MVC
 
-Things you may want to cover:
+To run this project make sure you have ruby version 2.3.0 installed and then run bundle install after cloning the repo
+Then run "rails server" and you should be able to see the site by going to localhost:3000 in browser
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
